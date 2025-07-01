@@ -1,0 +1,39 @@
+/* src/styles/profile.css */
+.profile-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.profile-card {
+  display: inline-flex;
+  align-items: center;
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background: #f9f9f9;
+  gap: 20px;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-info {
+  text-align: left;
+}
+.update-picture-btn {
+  margin-top: 1rem;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.update-picture-btn:hover {
+  background-color: #0056b3;
+}
